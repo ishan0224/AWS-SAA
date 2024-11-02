@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+echo "== list-buckets"
+
+aws s3api list-buckets \
+--query "Buckets[].Name" \
+--output text

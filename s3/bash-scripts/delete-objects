@@ -1,0 +1,16 @@
+#!/usr/bin/bash
+echo "== delete-objects"
+
+# Exit immediately if any command returns a non-zero status
+set -e
+
+# Check for bucket name
+if [ -z "$1" ]; then
+    echo "There needs to be a bucket name, e.g., ./bucket my-bucket-name"
+    exit 1
+fi
+
+BUCKET_NAME=$1
+
+# Empty the bucket
+aws s3 rm "s3://$BUCKET_NAME" --recursive
