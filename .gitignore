@@ -4,25 +4,25 @@
 .env.*.local
 
 # Ignore Node.js related files and directories
-sdk/node.js/node_modules/
-sdk/node.js/npm-debug.log*
-sdk/node.js/yarn-debug.log*
-sdk/node.js/yarn-error.log*
-sdk/node.js/dist/
-sdk/node.js/build/
-sdk/node.js/package-lock.json
-sdk/node.js/yarn.lock
+s3/sdk/node.js/node_modules/
+s3/sdk/node.js/npm-debug.log*
+s3/sdk/node.js/yarn-debug.log*
+s3/sdk/node.js/yarn-error.log*
+s3/sdk/node.js/dist/
+s3/sdk/node.js/build/
+s3/sdk/node.js/package-lock.json
+s3/sdk/node.js/yarn.lock
 
 # Ignore Ruby related files and directories
-sdk/ruby/.env
-sdk/ruby/*.log
-sdk/ruby/tmp/
-sdk/ruby/log/
-sdk/ruby/vendor/bundle/
-sdk/ruby/.rbenv-gemsets
-sdk/ruby/.ruby-version
-sdk/ruby/.ruby-gemset
-sdk/ruby/coverage/
+s3/sdk/ruby/.env
+s3/sdk/ruby/*.log
+s3/sdk/ruby/tmp/
+s3/sdk/ruby/log/
+s3/sdk/ruby/vendor/bundle/
+s3/sdk/ruby/.rbenv-gemsets
+s3/sdk/ruby/.ruby-version
+s3/sdk/ruby/.ruby-gemset
+s3/sdk/ruby/coverage/
 
 # Ignore editor-specific backup files
 .sass-cache/
