@@ -2,6 +2,9 @@
 .env
 .env.local
 .env.*.local
+ 
+# Ignore particular files
+sample.txt
 
 # Ignore Node.js related files and directories
 s3/sdk/node.js/node_modules/
