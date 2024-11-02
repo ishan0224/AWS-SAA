@@ -1,12 +1,29 @@
-# Ignore .env files
+# Ignore environment variable files
 .env
+.env.local
+.env.*.local
 
-# Ignore node_modules directory
-node_modules/
+# Ignore Node.js related files and directories
+sdk/node.js/node_modules/
+sdk/node.js/npm-debug.log*
+sdk/node.js/yarn-debug.log*
+sdk/node.js/yarn-error.log*
+sdk/node.js/dist/
+sdk/node.js/build/
+sdk/node.js/package-lock.json
+sdk/node.js/yarn.lock
 
-# Ignore log files
-*.log
+# Ignore Ruby related files and directories
+sdk/ruby/.env
+sdk/ruby/*.log
+sdk/ruby/tmp/
+sdk/ruby/log/
+sdk/ruby/vendor/bundle/
+sdk/ruby/.rbenv-gemsets
+sdk/ruby/.ruby-version
+sdk/ruby/.ruby-gemset
+sdk/ruby/coverage/
 
-# Ignore build artifacts
-dist/
-build/
+# Ignore editor-specific backup files
+.sass-cache/
+byebug_history
